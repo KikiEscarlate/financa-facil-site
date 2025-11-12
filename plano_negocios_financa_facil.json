@@ -1,0 +1,281 @@
+{
+  "identificacao_empreendimento": {
+    "nome_empresa": "Finança Fácil",
+    "segmento_atuacao": "Tecnologia Financeira (FinTech) e Aplicativos de Gestão Financeira Pessoal",
+    "cnpj": "A Definir",
+    "data_abertura": "A Definir",
+    "localizacao": "Plataforma Web e Aplicativo Digital (Sem necessidade de estrutura física tradicional)"
+  },
+  "sumario_executivo": {
+    "missao": "Criar uma experiência de usuário simplificada que ajude as pessoas a gerenciarem suas finanças sem que se sintam sobrecarregadas.",
+    "visao": "Ser a ferramenta mais simples e acessível para o controle financeiro de famílias de baixa/média renda e jovens empreendedores.",
+    "valores": [
+      "Simplicidade",
+      "Clareza",
+      "Acessibilidade",
+      "Educação Financeira"
+    ],
+    "diferenciais_competitivos": [
+      "Foco na experiência de usuário simplificada, ideal para quem se sente sobrecarregado por planilhas e aplicativos complexos",
+      "Funcionalidades de Lembretes e Metas para auxiliar o controle"
+    ],
+    "investimento_inicial_necessario": "R$ 50.000 a R$ 60.000 (Estimativa para desenvolvimento do MVP + marketing inicial)",
+    "retorno_financeiro_esperado": "A Definir (Com base nas projeções de conversão do modelo freemium)"
+  },
+  "analise_mercado": {
+    "mercado_alvo": {
+      "publico_principal": "Pessoas que buscam uma ferramenta prática para controle financeiro. Famílias de baixa e média renda e jovens empreendedores.",
+      "caracteristicas_demograficas": "Usuários com acesso à internet, que valorizam a praticidade e que possuem pouco ou nenhum histórico com ferramentas financeiras complexas.",
+      "necessidades_identificadas": [
+        "Dificuldade em organizar e controlar finanças pessoais",
+        "Necessidade de uma forma intuitiva para visualizar e entender os gastos"
+      ],
+      "tamanho_mercado_potencial": "População brasileira que utiliza smartphones e não usa ativamente apps de finanças"
+    },
+    "concorrencia": {
+      "principais_concorrentes": [
+        "Aplicativos de gestão financeira existentes (Ex: Mobills, Organizze)",
+        "Planilhas manuais"
+      ],
+      "pontos_fortes_concorrencia": [
+        "Integração bancária",
+        "Histórico no mercado",
+        "Base de usuários estabelecida"
+      ],
+      "pontos_fracos_concorrencia": "Aplicativos existentes são frequentemente complexos e sobrecarregam o usuário.",
+      "vantagem_competitiva": [
+        "Ferramenta intuitiva e fácil de usar",
+        "Visualização clara de receitas e despesas",
+        "Resolução da dor da 'sobrecarga de informação'"
+      ]
+    },
+    "fornecedores": {
+      "principais_fornecedores": [
+        "Provedores de serviços de Cloud Computing (Servidores para sincronização)",
+        "Plataformas de pagamento digital (para processar assinaturas)",
+        "Lojas de aplicativos (Apple/Google)"
+      ],
+      "condicoes_pagamento": [
+        "Mensal, conforme o uso (Cloud)",
+        "Taxa de serviço (30%) sobre assinaturas (Lojas de apps)"
+      ],
+      "prazo_entrega": "Serviço contínuo"
+    }
+  },
+  "plano_operacional": {
+    "estrutura_fisica": {
+      "localizacao": "Remoto/Home-Office",
+      "area": "0m²",
+      "instalacoes_necessarias": "Servidores na nuvem para persistência de dados e segurança",
+      "layout": "Ambiente de trabalho remoto, focado em comunicação digital (Slack, Trello, etc.)"
+    },
+    "processos_operacionais": {
+      "fluxo_producao_prestacao_servico": [
+        "Desenvolvimento e manutenção da plataforma (Backend e Frontend)",
+        "Atualização do Server.js para persistência de dados",
+        "Criação contínua de conteúdo e suporte"
+      ],
+      "equipamentos_necessarios": "Computadores de alta performance para desenvolvimento",
+      "tecnologia_utilizada": {
+        "frontend": "React/Mobile",
+        "backend": "Node.js/Express",
+        "banco_dados": "PostgreSQL para segurança e persistência"
+      },
+      "controles_qualidade": [
+        "Testes de usabilidade (UX) em usuários-alvo (famílias, jovens empreendedores)",
+        "Testes de segurança de dados"
+      ]
+    },
+    "pessoal": {
+      "organograma": "CEO (Produto) -> Desenvolvedor(a) Full-Stack -> Analista de Marketing/Suporte",
+      "quantidade_funcionarios": 3,
+      "observacao_quantidade": "Mínimo para MVP",
+      "perfil_profissional_necessario": [
+        "Desenvolvedor(a) com foco em segurança de dados e UX",
+        "Profissional de Marketing de Conteúdo (SEO)"
+      ],
+      "remuneracao": "A Definir (Conforme o mercado e estágio da empresa)"
+    }
+  },
+  "plano_marketing": {
+    "produto_servico": {
+      "descricao_detalhada": "Aplicativo/plataforma web para controle financeiro, com foco na simplicidade. Permite registrar receitas e categorizar despesas, além de gerenciar Metas e Lembretes/Alertas para contas a pagar.",
+      "caracteristicas_tecnicas": [
+        "Interface intuitiva e acessível por navegador",
+        "Dados persistentes e seguros (Backend)"
+      ],
+      "garantia": "Suporte online (FAQ, Chat) e atualizações constantes"
+    },
+    "preco": {
+      "politica_precos": "Modelo Freemium. Funcionalidades básicas gratuitas. Recursos avançados (Lembretes Ilimitados, Metas Avançadas, Exportação/Relatórios) são pagos por assinatura.",
+      "tabela_precos": {
+        "plano_basico": "R$ 0,00",
+        "plano_premium_mensal": "R$ 14,90 a R$ 19,90",
+        "plano_premium_anual": "R$ 149,90"
+      },
+      "condicoes_pagamento": "Assinaturas processadas pelas lojas de aplicativos (Apple App Store e Google Play Store)"
+    },
+    "praca": {
+      "canais_distribuicao": [
+        "O site oficial do Finança Fácil",
+        "O aplicativo web/mobile"
+      ],
+      "area_cobertura": "Global, com foco inicial no Brasil (Língua Portuguesa)",
+      "logistica": "Puramente digital"
+    },
+    "promocao": {
+      "estrategia_comunicacao": [
+        "Marketing de Conteúdo (blog, redes sociais) com foco em dicas de educação financeira simples",
+        "Notificações push para engajamento e lembretes de metas"
+      ],
+      "orçamento_marketing": "R$ 1.500 a R$ 3.000 / mês (Mínimo inicial, focado em anúncios/SEO)",
+      "acoes_promocionais": [
+        "Parcerias com influenciadores de finanças pessoais",
+        "Parcerias com instituições de ensino"
+      ]
+    }
+  },
+  "analise_swot": {
+    "forcas": [
+      "Ferramenta intuitiva e fácil de usar",
+      "Responde à crescente demanda por soluções digitais e à conscientização sobre educação financeira"
+    ],
+    "fraquezas": [
+      "Necessidade de atualização do Server.js para garantir persistência de dados"
+    ],
+    "oportunidades": [
+      "Tendência de maior conscientização sobre educação financeira",
+      "Possibilidade de importação de extratos bancários e sincronização de transações bancárias"
+    ],
+    "ameacas": [
+      "Concorrência de aplicativos de finanças já estabelecidos no mercado (Não detalhado nos documentos)"
+    ]
+  },
+  "projecoes_financeiras": {
+    "investimento_inicial": {
+      "imobilizado": {
+        "obras_reformas": "R$ 0,00",
+        "equipamentos": "R$ 0,00",
+        "moveis_utensilios": "R$ 0,00",
+        "total": "R$ 0,00"
+      },
+      "capital_giro": {
+        "estoque_inicial": "R$ 0,00",
+        "despesas_pre_operacionais": "R$ 5.000",
+        "total": "R$ 45.000"
+      },
+      "reserva_emergencia": "R$ 5.000",
+      "total": "R$ 55.000"
+    },
+    "custos_operacionais_mensais": {
+      "custos_variaveis": {
+        "materia_prima_insumos": "R$ 0,00",
+        "comissoes_vendas": "R$ 0,00",
+        "total": "R$ 0,00"
+      },
+      "custos_fixos": {
+        "aluguel": "R$ 0,00",
+        "salarios_encargos": "A Definir",
+        "energia_agua_telefone": "R$ 300",
+        "marketing": "R$ 1.500 a R$ 3.000",
+        "manutencao": "R$ 500 a R$ 1.000",
+        "outras_despesas": "R$ 500"
+      },
+      "total": "R$ 4.700 + (Salários)"
+    },
+    "projecao_receitas": [
+      {
+        "periodo": "1º Mês",
+        "receita_bruta": "R$ 0,00",
+        "custos": "R$ 11.550",
+        "lucro_prejuizo": "R$ (11.550)"
+      },
+      {
+        "periodo": "3º Mês",
+        "receita_bruta": "R$ 1.590",
+        "custos": "R$ 11.907",
+        "lucro_prejuizo": "R$ (10.317)"
+      },
+      {
+        "periodo": "6º Mês",
+        "receita_bruta": "R$ 4.770",
+        "custos": "R$ 12.981",
+        "lucro_prejuizo": "R$ (8.211)"
+      },
+      {
+        "periodo": "1º Ano",
+        "receita_bruta": "R$ 15.900",
+        "custos": "R$ 16.315",
+        "lucro_prejuizo": "R$ (415)"
+      }
+    ],
+    "indicadores_viabilidade": {
+      "ponto_equilibrio": "1.050 unidades/mês",
+      "prazo_retorno_investimento": "A Definir (Depende da taxa de crescimento de usuários pós-lançamento) meses",
+      "margem_lucro_liquida": "A Definir %",
+      "faturamento_mensal_esperado": "R$ 12.000 a R$ 20.000 (Após o 1º ano de estabilização)"
+    }
+  },
+  "plano_implementacao": {
+    "cronograma_acoes": {
+      "pre_abertura": [
+        {
+          "atividade": "Pesquisa de Mercado",
+          "responsavel": "Analista de Marketing",
+          "prazo": "1 Mês"
+        },
+        {
+          "atividade": "Elaboração do Plano",
+          "responsavel": "CEO / Equipe",
+          "prazo": "1 Semana"
+        },
+        {
+          "atividade": "Captação de Recursos",
+          "responsavel": "CEO",
+          "prazo": "2 Meses"
+        }
+      ],
+      "implementacao": [
+        {
+          "atividade": "Reforma/Locação",
+          "responsavel": "UI/UX Designer",
+          "prazo": "1 Mês"
+        },
+        {
+          "atividade": "Compra de Equipamentos",
+          "responsavel": "Back-end Developer",
+          "prazo": "3 Meses"
+        },
+        {
+          "atividade": "Contratação de Pessoal",
+          "responsavel": "Front-end Developer",
+          "prazo": "3 Meses"
+        }
+      ],
+      "pos_abertura": [
+        {
+          "atividade": "Campanha de Lançamento",
+          "responsavel": "Analista de Marketing",
+          "prazo": "Contínuo"
+        },
+        {
+          "atividade": "Acompanhamento de Resultados",
+          "responsavel": "CEO / Equipe",
+          "prazo": "Contínuo"
+        }
+      ]
+    }
+  },
+  "anexos": {
+    "pesquisa_mercado": "A Ser Detalhada (Análise aprofundada de público-alvo e concorrência)",
+    "orcamentos_fornecedores": "A Ser Detalhado (Cotações de hospedagem cloud, ferramentas de desenvolvimento)",
+    "plantas_layouts": "Não Aplicável (App Digital)",
+    "curriculos_socios": "A Ser Anexado",
+    "contratos_modelo": "A Ser Elaborado (Termos de Uso, Política de Privacidade)"
+  },
+  "metadados": {
+    "data_elaboracao": "11/11/2025",
+    "elaborado_por": "Nicolas dos Reis Lopes"
+  }
+}
+
